@@ -1,10 +1,12 @@
 package com.skytekx.elementarystaffs;
 
+import com.skytekx.elementarystaffs.loot.LootInjector;
 import com.skytekx.elementarystaffs.registry.ModEnchantments;
 import com.skytekx.elementarystaffs.registry.ModEntities;
 import com.skytekx.elementarystaffs.registry.ModItems;
 import com.skytekx.elementarystaffs.registry.ModSounds;
 import com.skytekx.elementarystaffs.registry.ModTabs;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
@@ -24,6 +26,7 @@ public final class ElementaryStaffsMod {
         ModEnchantments.ENCHANTMENTS.register(modBus);
         ModSounds.SOUND_EVENTS.register(modBus);
         ModTabs.TABS.register(modBus);
+        MinecraftForge.EVENT_BUS.addListener(LootInjector::onLootTableLoad);
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, StaffsConfig.SPEC);
     }
 }
