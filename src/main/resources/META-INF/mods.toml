@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="elementary_staffs"
+version="${file.jarVersion}"
+displayName="Elementary Staffs"
+authors="Kroko"
+credits="Original mod Elementary Staffs by Kroko (KrokoOnAir). Unofficial Forge 1.20.1 port for the SkyTekx3 modpack by kleberbaum."
+logoFile="elementary_staffs_logo.png"
+description='''
+May the staffs be with you!
+
+Eight elemental staffs, their essences, elemental arrows and grenades. This is an unofficial Forge port of Elementary Staffs 2.0.0 by Kroko for the SkyTekx3 modpack.
+
+The files LICENSE_elementary_staffs and NOTICE_elementary_staffs in the jar have the license and the details of the port.
+'''
+
+[[dependencies.elementary_staffs]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.elementary_staffs]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
