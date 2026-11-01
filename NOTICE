@@ -1,0 +1,29 @@
+Elementary Staffs for Forge 1.20.1
+
+Copyright
+
+Elementary Staffs is the work of Kroko (KrokoOnAir), who published it under
+the MIT license. The license file of the original leaves the copyright
+holder blank. The author is Kroko according to the mod metadata of
+Elementary Staffs 2.0.0.
+
+The port to Minecraft 1.20.1 with Forge 47 was made by kleberbaum in
+November 2026 for the SkyTekx3 modpack. It is an unofficial port and is
+neither affiliated with nor endorsed by Kroko.
+
+Changes
+
+The Kotlin code of 2.0.0 for Fabric was rewritten in Java for Forge
+without owo-lib and without mixins. The textures, sounds, item models,
+recipes, loot tables and tags are the files of 2.0.0, moved from the
+namespace elementary-staffs to elementary_staffs. The English texts keep
+the wording of 2.0.0, the German texts are new. The README lists the
+changes in behavior against 2.0.0 and against 1.0.6 for Minecraft 1.12.2.
+The git history of the port records every change with its date.
+
+License
+
+The port is distributed under the same MIT license as the original. Its
+full text is in the file LICENSE, which the mod jar carries as
+LICENSE_elementary_staffs. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+WARRANTY OF ANY KIND.
