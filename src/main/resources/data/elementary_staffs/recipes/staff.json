@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementary_staffs:essence/magic"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "elementary_staffs:staff",
+    "count": 1
+  }
+}

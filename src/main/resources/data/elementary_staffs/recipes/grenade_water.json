@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#L#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glass_bottle"
+        },
+        "L": {
+            "item": "elementary_staffs:essence/water"
+        }
+    },
+    "result": {
+        "item": "elementary_staffs:grenade/water",
+        "count": 8
+    }
+}

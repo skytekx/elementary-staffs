@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "elementary_staffs:arrow/dark",
+    "elementary_staffs:arrow/electric",
+    "elementary_staffs:arrow/fire",
+    "elementary_staffs:arrow/ice",
+    "elementary_staffs:arrow/life",
+    "elementary_staffs:arrow/poison",
+    "elementary_staffs:arrow/water",
+    "elementary_staffs:arrow/wind"
+  ]
+}

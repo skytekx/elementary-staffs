@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "group": "elementary_staffs:staffs",
+  "ingredients": [
+    {
+      "item": "elementary_staffs:staff"
+    },
+    {
+      "item": "elementary_staffs:essence/wind"
+    }
+  ],
+  "result": {
+    "item": "elementary_staffs:staff/wind"
+  }
+}

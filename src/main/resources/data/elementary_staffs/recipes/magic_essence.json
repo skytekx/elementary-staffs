@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "elementary_staffs:essence/water"
+    },
+    {
+      "item": "elementary_staffs:essence/poison"
+    },
+    {
+      "item": "elementary_staffs:essence/wind"
+    },
+    {
+      "item": "elementary_staffs:essence/ice"
+    },
+    {
+      "item": "elementary_staffs:essence/fire"
+    },
+    {
+      "item": "elementary_staffs:essence/life"
+    },
+    {
+      "item": "elementary_staffs:essence/darkness"
+    },
+    {
+      "item": "elementary_staffs:essence/electric"
+    }
+  ],
+  "result": {
+    "item": "elementary_staffs:essence/magic",
+    "count": 1
+  }
+}

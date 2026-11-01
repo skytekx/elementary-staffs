@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#L#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:arrow"
+        },
+        "L": {
+            "item": "elementary_staffs:essence/water"
+        }
+    },
+    "result": {
+        "item": "elementary_staffs:arrow/water",
+        "count": 8
+    }
+}
