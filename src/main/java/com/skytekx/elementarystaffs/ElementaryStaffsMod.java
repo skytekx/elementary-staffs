@@ -28,6 +28,7 @@ public final class ElementaryStaffsMod {
 
     // FMLJavaModLoadingContext.get() and new ResourceLocation(...) still work on every Forge 47
     // build. Their replacements only exist in newer builds than some servers run.
+    @SuppressWarnings("removal")
     public ElementaryStaffsMod() {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.ITEMS.register(modBus);
